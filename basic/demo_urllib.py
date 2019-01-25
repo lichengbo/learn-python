@@ -18,5 +18,3 @@ data = urllib.urlencode(values)
 request = urllib2.Request(url, data, headers)
 response = urllib2.urlopen(request)
 print response.read()
-
-# 
